@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 BASE = "/pro-ter-pa-v2/"
 SITE = "https://donatiencorrea.github.io/pro-ter-pa-v2/"
+BUSINESS_MAPS = "https://www.google.com/maps/place/Pro-ter-pa+Perrier+Pascal/@48.9606852,1.336873,17z/data=!3m1!4b1!4m6!3m5!1s0x8869340ff8acce9f:0x84d9202bb15a14e1!8m2!3d48.9606852!4d1.336873!16s%2Fg%2F11krfhtlq0"
 NAV = [
     ("", "Accueil"),
     ("chantier-de-terrassement", "Terrassement"),
@@ -20,6 +21,12 @@ NAV = [
     ("galerie-photos", "Réalisations"),
     ("contact", "Parlons de votre projet"),
 ]
+CATEGORIES = {
+    "toutes": "Toutes",
+    "terrassement": "Terrassement",
+    "amenagements": "Aménagements",
+    "assainissement": "Assainissement",
+}
 
 
 def escape(value):
@@ -28,6 +35,11 @@ def escape(value):
 
 def url(route=""):
     return BASE + (route.strip("/") + "/" if route else "")
+
+
+def versioned_asset(path):
+    digest = hashlib.sha256((DOCS / path).read_bytes()).hexdigest()[:12]
+    return f"{BASE}{path}?v={digest}"
 
 
 def image(asset, alt, variant="display", eager=False, css=""):
@@ -92,16 +104,46 @@ def contact_band():
 def gallery(items):
     cards = []
     for item in items:
-        original = DATA["media"][item["asset"]]["original"]["path"]
+        original = DATA["media"][item["asset"]]["original"]
         label = item["caption"]
         cards.append(
-            '<figure>'
-            f'<a href="{BASE}{escape(original)}" data-photo data-caption="{escape(label)}"'
+            f'<figure{" class=uncropped" if item.get("uncropped") else ""} data-gallery-item data-categories="{escape(" ".join(item_categories(item)))}">'
+            f'<a href="{BASE}{escape(original["path"])}" data-photo="{item["asset"]}" data-caption="{escape(label)}"'
+            f' data-width="{original["width"]}" data-height="{original["height"]}"'
             f' aria-label="Agrandir : {escape(label)}">'
             f'{image(item["asset"], item["alt"], "thumb")}</a>'
-            f"<figcaption>{escape(label)}</figcaption></figure>"
+            f'<figcaption>{escape(label)}'
+            + ('<span class="photo-credit">Publié par Pro-Ter-Pa sur Google</span>' if item.get("source_type") == "google-owner" else "")
+            + "</figcaption></figure>"
         )
     return '<div class="gallery">' + "".join(cards) + "</div>"
+
+
+def item_categories(item):
+    return [category for category, assets in PHOTO_CATEGORIES.items() if item["asset"] in assets]
+
+
+def gallery_filters():
+    buttons = "".join(
+        f'<button type="button" data-filter="{category}" aria-pressed="{"true" if category == "toutes" else "false"}">'
+        f'{label} <span aria-hidden="true">{len(DATA["gallery"]) if category == "toutes" else len(PHOTO_CATEGORIES[category])}</span></button>'
+        for category, label in CATEGORIES.items()
+    )
+    return (
+        f'<div class="gallery-tools"><div data-gallery-filters role="group" aria-label="Filtrer les réalisations" hidden>{buttons}</div>'
+        f'<p data-gallery-count aria-live="polite" aria-atomic="true">{len(DATA["gallery"])} photos · Toutes les réalisations</p></div>'
+    )
+
+
+def quick_contact(route):
+    if route in ["contact", "mentions-legales"]:
+        return ""
+    return (
+        '<nav class="quick-contact" aria-label="Contact rapide">'
+        '<a href="tel:+33762058945">Appeler <span class="visually-hidden">Pro-Ter-Pa au 07 62 05 89 45</span>'
+        '<span aria-hidden="true">↗</span></a>'
+        f'<a href="{url("contact")}">Votre projet <span aria-hidden="true">↗</span></a></nav>'
+    )
 
 
 def lightbox():
@@ -111,8 +153,11 @@ def lightbox():
         '<div class="lightbox-buttons"><button data-previous aria-label="Photographie précédente">←</button>'
         '<button data-next aria-label="Photographie suivante">→</button>'
         '<button data-close aria-label="Fermer la photographie">×</button></div></div>'
-        f'<img class="lightbox-image" src="{BASE}{DATA["media"][DATA["hero"]]["thumb"]["path"]}" alt="" width="1600" height="1200" loading="lazy">'
-        '<p class="lightbox-caption"></p></dialog>'
+        f'{image(DATA["hero"], "", "thumb", css="lightbox-image")}'
+        '<div class="lightbox-footer"><p class="lightbox-caption"></p>'
+        '<button type="button" class="copy-link" data-copy>Copier le lien</button>'
+        '<a data-share-link>Lien de cette photo</a>'
+        '<p class="copy-status" data-copy-status role="status" aria-live="polite"></p></div></dialog>'
     )
 
 
@@ -120,13 +165,15 @@ def media_archive():
     photographs = {item["asset"] for item in DATA["gallery"]}
     items = "".join(
         f'<figure><a href="{BASE}{escape(media["original"]["path"])}">'
-        f'{image(key, media["original_name"].removesuffix(".webp"), "thumb")}</a>'
-        f'<figcaption>{escape(media["original_name"])}</figcaption></figure>'
+        f'{image(key, media.get("caption") or media["original_name"].removesuffix(".webp"), "thumb")}</a>'
+        f'<figcaption>{escape(media.get("caption") or media["original_name"])}</figcaption></figure>'
         for key, media in DATA["media"].items() if key not in photographs
     )
     return (
         '<section class="section media-archive"><details><summary>Les autres visuels du site d’origine</summary>'
-        '<p>Logos, pictogrammes et carte : tous les éléments d’origine sont conservés et consultables ci-dessous.</p>'
+        '<p>Logos, pictogrammes et carte : tous les éléments d’origine sont conservés et consultables ci-dessous. '
+        'Une variante du logo publiée sur Google est également conservée à titre d’archive ; '
+        'les mentions présentes dans ce visuel ne constituent pas de nouvelles déclarations sur cette version.</p>'
         f'<div class="archive-grid">{items}</div></details>'
         f'<p><a href="{BASE}preservation-inventory.json">Consulter l’inventaire complet des pages et des visuels (JSON)</a></p></section>'
     )
@@ -134,11 +181,13 @@ def media_archive():
 
 def service_list():
     return '<div class="service-list">' + "".join(
-        f'<div class="service-row"><h3><a href="{url(route)}">{escape(section["title"])}</a></h3>'
+        f'<div class="service-row"><a class="service-visual" href="{url(route)}" tabindex="-1" aria-hidden="true">'
+        f'{image(asset, "", "thumb")}</a><h3><a href="{url(route)}">{escape(section["title"])}</a></h3>'
         f'<div class="prose">{section["html"]}</div><a class="arrow" href="{url(route)}" aria-label="Découvrir : {escape(section["title"])}">↗</a></div>'
-        for route, section in zip(
+        for route, section, asset in zip(
             ["chantier-de-terrassement", "nos-amenagements", "assainissement"],
             DATA["pages"][""]["sections"][1:4],
+            [DATA["gallery"][2]["asset"], DATA["gallery"][3]["asset"], DATA["gallery"][24]["asset"]],
         )
     ) + "</div>"
 
@@ -168,11 +217,11 @@ def home():
         + '</section><section class="section photo-section"><div class="section-heading">'
         '<h2>Sur le terrain, en images.</h2>'
         f'<a class="text-link" href="{url("galerie-photos")}">Toutes les réalisations ↗</a></div>'
-        + gallery(DATA["gallery"][:5])
+        + gallery([GOOGLE_PROJECTS[-1], GOOGLE_PROJECTS[1]] + DATA["gallery"][:3])
         + '</section><section class="section intro"><h2>À vos côtés, dans l’Eure.</h2>'
         f'<div class="prose"><h3>{escape(page["sections"][5]["title"])}</h3>{page["sections"][5]["html"]}'
         '<p>7 bis rue des Bois, 27120 Boisset-les-Prévanches</p>'
-        f'<p><a href="{escape(DATA["maps"])}" rel="noopener" target="_blank">Voir l’itinéraire sur Google Maps (nouvel onglet) ↗</a></p>'
+        f'<p><a href="{escape(BUSINESS_MAPS)}" rel="noopener" target="_blank">Voir l’itinéraire sur Google Maps (nouvel onglet) ↗</a></p>'
         "</div></section>"
         + contact_band()
     )
@@ -215,7 +264,7 @@ def contact():
         '<dt>Horaires</dt><dd>Du lundi au vendredi, de 8h à 18h</dd>'
         '<dt>Zone d’intervention</dt><dd>Dans un rayon de 30 km autour de Boisset-les-Prévanches : '
         'Vernon, Saint-André-de-l’Eure, Pacy-sur-Eure, Évreux, Bueil et Serez.</dd></dl>'
-        f'<div class="actions"><a class="button secondary" href="{escape(DATA["maps"])}" target="_blank" rel="noopener">'
+        f'<div class="actions"><a class="button secondary" href="{escape(BUSINESS_MAPS)}" target="_blank" rel="noopener">'
         'Voir l’itinéraire<span class="visually-hidden"> (nouvel onglet)</span></a></div></div>'
         '<aside class="contact-note"><h2>Votre projet commence par un échange.</h2>'
         '<p>Décrivez votre besoin, le lieu des travaux et vos coordonnées directement par e-mail ou par téléphone.</p>'
@@ -249,6 +298,10 @@ def legal():
         '<p>Les liens e-mail et téléphone utilisent les applications de votre appareil. '
         'Google Maps et le formulaire du site d’origine sont des services externes : '
         'leurs propres politiques s’appliquent après ouverture de ces liens.</p>'
+        '<h3>Polices de caractères</h3><p>Barlow et Barlow Semi Condensed sont hébergées localement, '
+        'sous licence SIL Open Font License 1.1. '
+        f'<a href="{BASE}assets/fonts/barlow-LICENSE.txt">Licence Barlow</a> · '
+        f'<a href="{BASE}assets/fonts/barlow-semi-condensed-LICENSE.txt">Licence Barlow Semi Condensed</a>.</p>'
         '<h2>Mentions du site d’origine</h2>'
         '<p>Les mentions suivantes décrivent l’édition, la réalisation et l’hébergement du site d’origine. '
         'Les références à Local.fr et à OVH ne désignent pas la réalisation ou l’hébergement de cette V2.</p>'
@@ -283,13 +336,15 @@ def render(route, body):
         f'<meta property="og:url" content="{SITE}{route + "/" if route else ""}">'
         f'<meta property="og:image" content="{SITE}{DATA["media"][DATA["hero"]]["display"]["path"]}">'
         f'<link rel="icon" href="{BASE}{DATA["media"][DATA["logo"]]["original"]["path"]}">'
-        f'<link rel="stylesheet" href="{BASE}assets/site.css">'
-        f'<script src="{BASE}assets/site.js" defer></script>'
+        f'<link rel="preload" href="{BASE}assets/fonts/barlow-semi-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>'
+        f'<link rel="stylesheet" href="{versioned_asset("assets/site.css")}">'
+        f'<script src="{versioned_asset("assets/site.js")}" defer></script>'
         '<noscript><style>.menu-toggle{display:none}.nav{display:flex;position:static;flex-wrap:wrap}'
         '.site-header{position:static;flex-wrap:wrap}.nav a{font-size:14px}</style></noscript>'
-        '</head><body>' + contract + header(route)
+        f'</head><body{" class=has-quick-contact" if quick_contact(route) else ""}>' + contract + header(route)
+        + '<p class="page-notice" data-gallery-status role="status" hidden></p>'
         + f'<main id="contenu" tabindex="-1"{" class=gallery-page" if route == "galerie-photos" else ""}>'
-        + body + "</main>" + footer() + (lightbox() if "data-photo" in body else "") + "</body></html>"
+        + body + "</main>" + footer() + quick_contact(route) + (lightbox() if "data-photo" in body else "") + "</body></html>"
     )
 
 
@@ -321,13 +376,64 @@ def create_variants(data):
 
 if __name__ == "__main__":
     DATA = json.loads((ROOT / "source/content.json").read_text())
+    DATA["current_maps"] = BUSINESS_MAPS
+    PHOTO_CATEGORIES = json.loads((ROOT / "source/gallery-categories.json").read_text())
+    google = json.loads((ROOT / "source/google-photos.json").read_text())
+    GOOGLE_PROJECTS = []
+    for photo in google["photos"]:
+        key = "google-" + photo["sha256"][:12]
+        path = Path("assets/google") / photo["file"]
+        original = DOCS / path
+        if hashlib.sha256(original.read_bytes()).hexdigest() != photo["sha256"]:
+            raise ValueError(f"Imported Google image altered: {photo['file']}")
+        DATA["media"][key] = {
+            "url": photo["download_url"], "source_type": google["source_type"],
+            "publisher": google["publisher"], "profile_url": google["profile_url"],
+            "photo_id": photo["photo_id"], "role": photo["role"], "caption": photo["caption"],
+            "original_name": photo["original_filename"], "sha256": photo["sha256"],
+            "original": {"source": str(Path("docs") / path), "path": str(path)},
+        }
+        if photo["role"] == "project-photo":
+            item = {
+                "asset": key, "caption": photo["caption"], "alt": photo["caption"] + " — photographie publiée par Pro-Ter-Pa sur Google",
+                "categories": photo["categories"], "source_type": "google-owner", "uncropped": True,
+            }
+            GOOGLE_PROJECTS.append(item)
+            DATA["gallery"].append(item)
+            for category in photo["categories"]:
+                PHOTO_CATEGORIES[category].append(key)
+    DATA["google_photos"] = {
+        "profile_url": google["profile_url"], "place_url": google["place_url"],
+        "selection_note": google["selection_note"], "captured_count": len(google["photos"]),
+        "project_images_added": len(GOOGLE_PROJECTS),
+    }
+    DATA["coverage"].update({
+        "original_media_count": 55, "additional_google_media_count": len(google["photos"]),
+        "media_count": len(DATA["media"]), "original_project_images": 40,
+        "preserved_photographs_and_banners": len(DATA["gallery"]),
+    })
+    all_photos = {item["asset"] for item in DATA["gallery"]}
+    if set().union(*(set(assets) for assets in PHOTO_CATEGORIES.values())) != all_photos:
+        raise ValueError("Gallery categories must cover exactly the preserved photographs.")
+    for item in DATA["gallery"]:
+        item["categories"] = item_categories(item)
+    fonts = DOCS / "assets/fonts"
+    fonts.mkdir(exist_ok=True)
+    for package, files in {
+        "barlow": ["barlow-latin-400-normal.woff2", "barlow-latin-700-normal.woff2"],
+        "barlow-semi-condensed": ["barlow-semi-condensed-latin-700-normal.woff2"],
+    }.items():
+        package_root = ROOT / "node_modules/@fontsource" / package
+        for file in files:
+            shutil.copyfile(package_root / "files" / file, fonts / file)
+        shutil.copyfile(package_root / "LICENSE", fonts / f"{package}-LICENSE.txt")
     create_variants(DATA)
     bodies = {
         "": home(),
         "chantier-de-terrassement": service("chantier-de-terrassement"),
         "nos-amenagements": service("nos-amenagements"),
         "assainissement": service("assainissement"),
-        "galerie-photos": page_title("galerie-photos") + '<section class="section"><div class="prose gallery-intro">' + DATA["pages"]["galerie-photos"]["html"] + '</div>' + gallery(DATA["gallery"]) + '</section>' + media_archive() + contact_band(),
+        "galerie-photos": page_title("galerie-photos") + '<section class="section gallery-section">' + gallery_filters() + '<div class="prose gallery-intro">' + DATA["pages"]["galerie-photos"]["html"] + '<p>9 visuels de chantier publiés par Pro-Ter-Pa sur Google complètent la galerie d’origine. <a href="' + escape(google["profile_url"]) + '" target="_blank" rel="noopener">Voir les photos publiques de Pro-Ter-Pa sur Google Maps (nouvel onglet) ↗</a></p></div>' + gallery(DATA["gallery"]) + '</section>' + media_archive() + contact_band(),
         "contact": contact(),
         "mentions-legales": legal(),
     }
@@ -342,4 +448,4 @@ if __name__ == "__main__":
         + "</urlset>"
     )
     (DOCS / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
-    print(f"Built {len(bodies)} routes; preserved {len(DATA['media'])} original image assets.")
+    print(f"Built {len(bodies)} routes; preserved 55 original image assets and added {len(google['photos'])} owner-published Google images.")

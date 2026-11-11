@@ -134,7 +134,12 @@ for index, asset in enumerate(MANIFEST["assets"]):
     asset_ids[canonical(asset["url"])] = key
     destination = Path("docs/assets/originals") / Path(asset["file"]).name
     destination.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(SOURCE / asset["file"], ROOT / destination)
+    captured = SOURCE / asset["file"]
+    preserved = ROOT / destination
+    if captured.is_file():
+        shutil.copyfile(captured, preserved)
+    if not preserved.is_file() or hashlib.sha256(preserved.read_bytes()).hexdigest() != asset["sha256"]:
+        raise ValueError(f"Original asset missing or altered: {asset['original_name']}")
     data["media"][key] = {
         "url": asset["url"],
         "original_name": asset["original_name"],

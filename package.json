@@ -2,11 +2,13 @@
   "name": "pro-ter-pa-v2",
   "private": true,
   "scripts": {
-    "build": "python scripts/build.py",
-    "verify": "python scripts/verify.py",
+    "build": "python3 scripts/build.py",
+    "verify": "python3 scripts/verify.py",
     "test": "node scripts/test.mjs"
   },
   "devDependencies": {
+    "@fontsource/barlow": "^5.3.0",
+    "@fontsource/barlow-semi-condensed": "^5.3.0",
     "@axe-core/playwright": "^4.10.2",
     "playwright": "^1.56.1"
   }

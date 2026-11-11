@@ -1772,208 +1772,701 @@
         "width": 700,
         "height": 460
       }
+    },
+    "google-fd6b347fc806": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-COk3pdT9qMaFSdl_w7WMegZGiMYmbv8n5yDlmFYXvvF_RIsSFiYHnA44sDOhp6FzGEcL3Un3_MSNnw6mBA37RvD73idtFsplFG1SbVX5ft21h8NLxeC1eLHZ8vcz9wsRg_dY0C7C9ztQ_si=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhAq7mHaQvOM-eF6hGPgDhxD",
+      "role": "project-photo",
+      "caption": "Préparation d’un terrain — vues du chantier",
+      "original_name": null,
+      "sha256": "fd6b347fc806f1af2434fd22ca8fdb6acd8d023a2a3b7efe660996e375a8e3cc",
+      "original": {
+        "source": "docs/assets/google/owner-01-3454e518da.jpg",
+        "path": "assets/google/owner-01-3454e518da.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "fd6b347fc806f1af2434fd22ca8fdb6acd8d023a2a3b7efe660996e375a8e3cc"
+      },
+      "display": {
+        "path": "assets/google/owner-01-3454e518da-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-01-3454e518da-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-035f40285a89": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-CPTEsHt9tgI267QZ_7YbA8JTXVJmVzkamP9Byw3f7JZ41bud7pFz4sFhvqehabu64O5mAqVnoCGJaPGMyOWSzCpx5vjgF37ICxN1QoB03T62Gwrz-uYTWu1AbHx2tPpPNRPBTx-g_6-DlM=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhARebYST6oFpc5vTVwN0n8h",
+      "role": "project-photo",
+      "caption": "Aménagement paysager autour d’une piscine",
+      "original_name": null,
+      "sha256": "035f40285a893eed2ac0854c557e70966375a14eda359c8902ae5d0f9284ad48",
+      "original": {
+        "source": "docs/assets/google/owner-02-d56fc6f415.jpg",
+        "path": "assets/google/owner-02-d56fc6f415.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "035f40285a893eed2ac0854c557e70966375a14eda359c8902ae5d0f9284ad48"
+      },
+      "display": {
+        "path": "assets/google/owner-02-d56fc6f415-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-02-d56fc6f415-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-dbd7ef9ca4df": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-COCMgj2D-VfqYMDO2MR8GVEuv9bg-QiHVU8af3F_er0Sgx0nLagCmjlPGue9Uiek4kmKWwbGQ072zRyEOsNUJ2LWC8ZybgkvUioHbSi0qE9a30CSdJVmeqP82Md37J4TjbUse9C9NnhkWh2=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhB3GR4Q-3Zc6Od7bRruTVkj",
+      "role": "project-photo",
+      "caption": "Terrassement au pied d’une habitation",
+      "original_name": null,
+      "sha256": "dbd7ef9ca4df024418646e6482af046a83ab2b9ee60052ee4ecb0a79cbf491c1",
+      "original": {
+        "source": "docs/assets/google/owner-03-3e43d9706a.jpg",
+        "path": "assets/google/owner-03-3e43d9706a.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "dbd7ef9ca4df024418646e6482af046a83ab2b9ee60052ee4ecb0a79cbf491c1"
+      },
+      "display": {
+        "path": "assets/google/owner-03-3e43d9706a-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-03-3e43d9706a-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-3887e987e9a5": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-CPUIOBLnMuVqk8rZ72GfpncOhxye7gOmcWwHHm1OvXz52ihCTLUAVytVZXTVJbsoAW-wXip59WARUBUIOW0z3tponvdVLI9l-sxz30SV-fq1NqMO7lPn-3P5BBCWw824rnO0KHm8s1auqwR=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhAIS1Y0OKUrnVdlrMNxTayX",
+      "role": "project-photo",
+      "caption": "Pose d’une clôture et préparation du terrain",
+      "original_name": null,
+      "sha256": "3887e987e9a576a81f6a9b8b0273a71b3ef0331bc32cc728d287e1f73a3afb2d",
+      "original": {
+        "source": "docs/assets/google/owner-04-880ccf405f.jpg",
+        "path": "assets/google/owner-04-880ccf405f.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "3887e987e9a576a81f6a9b8b0273a71b3ef0331bc32cc728d287e1f73a3afb2d"
+      },
+      "display": {
+        "path": "assets/google/owner-04-880ccf405f-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-04-880ccf405f-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-ca9fc416a127": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-CPuuc9-5OzVD0k62dDVAH0u-Wog7QlFkaX_9fNvnyEND_UsgqGO506QB9YQ7QbGvexLCiCbNvqIE7Y_9jdmXvHC7MoUgOeDV5XGWHMWgXIVzcRfY8ZgQOn6zqXWmiHLdZuuktNzYo3Y3F42=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhBGxvZhEglPwybvk1zzwrOc",
+      "role": "project-photo",
+      "caption": "Aménagement d’une cour et de ses bordures",
+      "original_name": null,
+      "sha256": "ca9fc416a12771883d09ac414cc83dc65aee43899c283e74d08de3e01ff246ae",
+      "original": {
+        "source": "docs/assets/google/owner-05-6ac2663525.jpg",
+        "path": "assets/google/owner-05-6ac2663525.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "ca9fc416a12771883d09ac414cc83dc65aee43899c283e74d08de3e01ff246ae"
+      },
+      "display": {
+        "path": "assets/google/owner-05-6ac2663525-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-05-6ac2663525-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-6795152dd45c": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-COqbeS7cGorrY_qDoBIYmDmAp0bZaXJKXlPrJbAeOmxi19f8Hqd09zbo2uV31MP7f-FsmNrX4fQRVgGXWObZXOfAq_FI1c4hbK0Uv2XfrJ_jY5Abr2LA-ewpxru3yufQ3NpF5vA1SJQgrb8=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhA4y7VdPqxnQ7SE5GFykorv",
+      "role": "project-photo",
+      "caption": "Création d’une allée d’accès",
+      "original_name": null,
+      "sha256": "6795152dd45c5c4c6fb86a305021cd20d8f4819b435ccdec86a11b89b62f9dac",
+      "original": {
+        "source": "docs/assets/google/owner-06-5ca22229be.jpg",
+        "path": "assets/google/owner-06-5ca22229be.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "6795152dd45c5c4c6fb86a305021cd20d8f4819b435ccdec86a11b89b62f9dac"
+      },
+      "display": {
+        "path": "assets/google/owner-06-5ca22229be-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-06-5ca22229be-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-e3ca96b46f1e": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-COHdsekCoWuwzRNWKsetjTzS2pYIng1VT6cP1UZ0TVN0EJ2tKJ1BD-BMD4miOQ_Jutf1qIMJKz2TxWD2PZhL9oII4A5K-VpUfO82n0bR1RLcCm6an47MpfLqZxkxkcKd9i1OQaX8jufXXkM=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhDQYBYg7G3SekrPxwGyG4ZT",
+      "role": "project-photo",
+      "caption": "Allées et massifs d’un jardin réaménagé",
+      "original_name": null,
+      "sha256": "e3ca96b46f1e39ce4e89810b66f332a0f003e334e00cdbb9312fa4cc774f943b",
+      "original": {
+        "source": "docs/assets/google/owner-07-efc8c8e818.jpg",
+        "path": "assets/google/owner-07-efc8c8e818.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "e3ca96b46f1e39ce4e89810b66f332a0f003e334e00cdbb9312fa4cc774f943b"
+      },
+      "display": {
+        "path": "assets/google/owner-07-efc8c8e818-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-07-efc8c8e818-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-de9bed0b669c": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-CNQddzsTEsWy2d_6QtFNJT6IpCkic0wl491Ze5nQtjx8lgcHnqY09bMPA6HnDSqwmFMTroStk3oPibWQHGb2z8tZLzr04PWFG4DXQ-RpPvET6eG_2_tBxDFP6z5DuemHH6Wz8Sg0Nnphbo=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIABIhDw7XqqmQHzOBd66QxprNRu",
+      "role": "project-photo",
+      "caption": "Nivellement du terrain et aménagement de l’extérieur",
+      "original_name": null,
+      "sha256": "de9bed0b669ce0625634b4aeb925d880f6124012cd811960f1a1a1197054ed3c",
+      "original": {
+        "source": "docs/assets/google/owner-08-622b184586.jpg",
+        "path": "assets/google/owner-08-622b184586.jpg",
+        "width": 640,
+        "height": 640,
+        "sha256": "de9bed0b669ce0625634b4aeb925d880f6124012cd811960f1a1a1197054ed3c"
+      },
+      "display": {
+        "path": "assets/google/owner-08-622b184586-display.webp",
+        "width": 640,
+        "height": 640
+      },
+      "thumb": {
+        "path": "assets/google/owner-08-622b184586-thumb.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "google-321594d76c3b": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-CNEUmMEROKG2g_l3h6vbWnV8VMJ2RmVKa_x1DgAcKzyfWrU-6AgWnANsIcD8ULdoLgN8W5fmFPUbbVHv09NSpFgXNPWC44XGltXDesTtyFr4NCWNSZt0HNYxFmP6wpQZHxaxA0a=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIHM0ogKEICAgID_gsL5eg",
+      "role": "brand-image",
+      "caption": "Variante du logo publiée par Pro-Ter-Pa sur Google",
+      "original_name": null,
+      "sha256": "321594d76c3b4aceaff1e9d253c8fa9bee0f3ecb7f4fb4c2359a9c6ff84128e8",
+      "original": {
+        "source": "docs/assets/google/owner-09-7cf2327f35.jpg",
+        "path": "assets/google/owner-09-7cf2327f35.jpg",
+        "width": 680,
+        "height": 454,
+        "sha256": "321594d76c3b4aceaff1e9d253c8fa9bee0f3ecb7f4fb4c2359a9c6ff84128e8"
+      },
+      "display": {
+        "path": "assets/google/owner-09-7cf2327f35-display.webp",
+        "width": 680,
+        "height": 454
+      },
+      "thumb": {
+        "path": "assets/google/owner-09-7cf2327f35-thumb.webp",
+        "width": 680,
+        "height": 454
+      }
+    },
+    "google-a662eac2ba00": {
+      "url": "https://lh3.googleusercontent.com/gps-cs/AAjk-CPemZKJYuq8O4bdBZT5R8l01-NW59HMmM2ZJIsKLP1M-sa--z22P8CjkyF3Hie_kxph6nlZqe2ZGGj09CmCJjib8gBF-IwSEYHxeeApKBUd9QkmLB-EQ47nnZDJn_ZjFE4etY7S=w1600-h1600-k-no",
+      "source_type": "Google Maps public owner photographs",
+      "publisher": "Pro-ter-pa Perrier Pascal",
+      "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+      "photo_id": "10:CIHM0ogKEICAgID_gvzDYA",
+      "role": "project-photo",
+      "caption": "Allée gravillonnée et muret paysager en pierre",
+      "original_name": null,
+      "sha256": "a662eac2ba00b9f03c7eb093445ebf0c02cf3d4e517cd48eb009fcc47b64ca4d",
+      "original": {
+        "source": "docs/assets/google/owner-10-94f7d241cd.jpg",
+        "path": "assets/google/owner-10-94f7d241cd.jpg",
+        "width": 1600,
+        "height": 1600,
+        "sha256": "a662eac2ba00b9f03c7eb093445ebf0c02cf3d4e517cd48eb009fcc47b64ca4d"
+      },
+      "display": {
+        "path": "assets/google/owner-10-94f7d241cd-display.webp",
+        "width": 1600,
+        "height": 1600
+      },
+      "thumb": {
+        "path": "assets/google/owner-10-94f7d241cd-thumb.webp",
+        "width": 800,
+        "height": 800
+      }
     }
   },
   "gallery": [
     {
       "asset": "f4280ac974c6",
       "caption": "Une cour pavée, jusque dans les détails",
-      "alt": "Une cour pavée, jusque dans les détails — réalisation Pro-Ter-Pa"
+      "alt": "Une cour pavée, jusque dans les détails — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "813e235f5002",
       "caption": "Extraction d’une souche à la pelleteuse",
-      "alt": "Extraction d’une souche à la pelleteuse — réalisation Pro-Ter-Pa"
+      "alt": "Extraction d’une souche à la pelleteuse — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "8346b8ab71db",
       "caption": "Préparation d’un bassin de piscine",
-      "alt": "Préparation d’un bassin de piscine — réalisation Pro-Ter-Pa"
+      "alt": "Préparation d’un bassin de piscine — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "ce78c7e62396",
       "caption": "Un muret de pierre pour dessiner le jardin",
-      "alt": "Un muret de pierre pour dessiner le jardin — réalisation Pro-Ter-Pa"
+      "alt": "Un muret de pierre pour dessiner le jardin — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "85cf15b6aad8",
       "caption": "Muret paysager en pierre naturelle",
-      "alt": "Muret paysager en pierre naturelle — réalisation Pro-Ter-Pa"
+      "alt": "Muret paysager en pierre naturelle — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "917a7561a8d5",
       "caption": "Préparation d’une cour devant la maison",
-      "alt": "Préparation d’une cour devant la maison — réalisation Pro-Ter-Pa"
+      "alt": "Préparation d’une cour devant la maison — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "268fd61d4101",
       "caption": "Pavage au pied de la façade",
-      "alt": "Pavage au pied de la façade — réalisation Pro-Ter-Pa"
+      "alt": "Pavage au pied de la façade — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "116cf26dc2d5",
       "caption": "Un jardin avant son aménagement",
-      "alt": "Un jardin avant son aménagement — réalisation Pro-Ter-Pa"
+      "alt": "Un jardin avant son aménagement — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "1def9dc92dbf",
       "caption": "Muret arrondi et bordures paysagères",
-      "alt": "Muret arrondi et bordures paysagères — réalisation Pro-Ter-Pa"
+      "alt": "Muret arrondi et bordures paysagères — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "abe554ca9884",
       "caption": "Mise en œuvre du pavage",
-      "alt": "Mise en œuvre du pavage — réalisation Pro-Ter-Pa"
+      "alt": "Mise en œuvre du pavage — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "91b03c0b09b6",
       "caption": "Cour et bordures en cours de réalisation",
-      "alt": "Cour et bordures en cours de réalisation — réalisation Pro-Ter-Pa"
+      "alt": "Cour et bordures en cours de réalisation — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "baf0c61abb30",
       "caption": "Finition d’une cour pavée",
-      "alt": "Finition d’une cour pavée — réalisation Pro-Ter-Pa"
+      "alt": "Finition d’une cour pavée — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "a6c3ccdebcb7",
       "caption": "Jardin arboré et espace extérieur",
-      "alt": "Jardin arboré et espace extérieur — réalisation Pro-Ter-Pa"
+      "alt": "Jardin arboré et espace extérieur — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "8fc3c507692f",
       "caption": "Allée et jardin avant travaux",
-      "alt": "Allée et jardin avant travaux — réalisation Pro-Ter-Pa"
+      "alt": "Allée et jardin avant travaux — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "135bac08718e",
       "caption": "Terrassement d’une tranchée",
-      "alt": "Terrassement d’une tranchée — réalisation Pro-Ter-Pa"
+      "alt": "Terrassement d’une tranchée — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "5bf430076fc6",
       "caption": "Préparation du sol et niveaux",
-      "alt": "Préparation du sol et niveaux — réalisation Pro-Ter-Pa"
+      "alt": "Préparation du sol et niveaux — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "ca4036ba28cf",
       "caption": "Enrochement et bordure de jardin",
-      "alt": "Enrochement et bordure de jardin — réalisation Pro-Ter-Pa"
+      "alt": "Enrochement et bordure de jardin — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "2d2c213fea26",
       "caption": "Installation d’un équipement d’assainissement",
-      "alt": "Installation d’un équipement d’assainissement — réalisation Pro-Ter-Pa"
+      "alt": "Installation d’un équipement d’assainissement — réalisation Pro-Ter-Pa",
+      "categories": [
+        "assainissement"
+      ]
     },
     {
       "asset": "b66347644378",
       "caption": "Création d’un muret dans le jardin",
-      "alt": "Création d’un muret dans le jardin — réalisation Pro-Ter-Pa"
+      "alt": "Création d’un muret dans le jardin — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "8f9e80b6e6af",
       "caption": "Revêtement et grille d’évacuation",
-      "alt": "Revêtement et grille d’évacuation — réalisation Pro-Ter-Pa"
+      "alt": "Revêtement et grille d’évacuation — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "11aca73c8701",
       "caption": "Aménagement d’une entrée de maison",
-      "alt": "Aménagement d’une entrée de maison — réalisation Pro-Ter-Pa"
+      "alt": "Aménagement d’une entrée de maison — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "780c2a16ee84",
       "caption": "Muret et massifs paysagers",
-      "alt": "Muret et massifs paysagers — réalisation Pro-Ter-Pa"
+      "alt": "Muret et massifs paysagers — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "0c38cce57b48",
       "caption": "Pierre naturelle et terrain préparé",
-      "alt": "Pierre naturelle et terrain préparé — réalisation Pro-Ter-Pa"
+      "alt": "Pierre naturelle et terrain préparé — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "3213abdb96de",
       "caption": "Terrassement d’un bassin de piscine",
-      "alt": "Terrassement d’un bassin de piscine — réalisation Pro-Ter-Pa"
+      "alt": "Terrassement d’un bassin de piscine — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "5cbe0bd40a74",
       "caption": "Pose d’une cuve d’assainissement",
-      "alt": "Pose d’une cuve d’assainissement — réalisation Pro-Ter-Pa"
+      "alt": "Pose d’une cuve d’assainissement — réalisation Pro-Ter-Pa",
+      "categories": [
+        "assainissement"
+      ]
     },
     {
       "asset": "db747489610d",
       "caption": "Cour et caniveau linéaire",
-      "alt": "Cour et caniveau linéaire — réalisation Pro-Ter-Pa"
+      "alt": "Cour et caniveau linéaire — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "9d22eaaf4311",
       "caption": "L’espace extérieur avant aménagement",
-      "alt": "L’espace extérieur avant aménagement — réalisation Pro-Ter-Pa"
+      "alt": "L’espace extérieur avant aménagement — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "fcce9754a4e7",
       "caption": "Bordures de pierre et préparation du sol",
-      "alt": "Bordures de pierre et préparation du sol — réalisation Pro-Ter-Pa"
+      "alt": "Bordures de pierre et préparation du sol — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "ca7cabe4d4b8",
       "caption": "Assemblage et finition des pavés",
-      "alt": "Assemblage et finition des pavés — réalisation Pro-Ter-Pa"
+      "alt": "Assemblage et finition des pavés — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "df8af4ffe4ba",
       "caption": "Aménagement d’une cour de maison",
-      "alt": "Aménagement d’une cour de maison — réalisation Pro-Ter-Pa"
+      "alt": "Aménagement d’une cour de maison — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "e4667abca201",
       "caption": "Pavage et évacuation des eaux",
-      "alt": "Pavage et évacuation des eaux — réalisation Pro-Ter-Pa"
+      "alt": "Pavage et évacuation des eaux — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "6b63a54a0406",
       "caption": "Préparation du terrain devant la maison",
-      "alt": "Préparation du terrain devant la maison — réalisation Pro-Ter-Pa"
+      "alt": "Préparation du terrain devant la maison — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "4c9930521fb9",
       "caption": "Pavage en cours de réalisation",
-      "alt": "Pavage en cours de réalisation — réalisation Pro-Ter-Pa"
+      "alt": "Pavage en cours de réalisation — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "db10957ac7cd",
       "caption": "Un chantier au pied de la maison",
-      "alt": "Un chantier au pied de la maison — réalisation Pro-Ter-Pa"
+      "alt": "Un chantier au pied de la maison — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement"
+      ]
     },
     {
       "asset": "aa158c961f6f",
       "caption": "Finition du sol et évacuation des eaux",
-      "alt": "Finition du sol et évacuation des eaux — réalisation Pro-Ter-Pa"
+      "alt": "Finition du sol et évacuation des eaux — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "420102bd2c9c",
       "caption": "Canalisation dans une tranchée",
-      "alt": "Canalisation dans une tranchée — réalisation Pro-Ter-Pa"
+      "alt": "Canalisation dans une tranchée — réalisation Pro-Ter-Pa",
+      "categories": [
+        "assainissement"
+      ]
     },
     {
       "asset": "3e0dd9f3ec9c",
       "caption": "Cour et bordures de pierre",
-      "alt": "Cour et bordures de pierre — réalisation Pro-Ter-Pa"
+      "alt": "Cour et bordures de pierre — réalisation Pro-Ter-Pa",
+      "categories": [
+        "amenagements"
+      ]
     },
     {
       "asset": "ebaea1cd9070",
       "caption": "Réseau enterré en cours d’installation",
-      "alt": "Réseau enterré en cours d’installation — réalisation Pro-Ter-Pa"
+      "alt": "Réseau enterré en cours d’installation — réalisation Pro-Ter-Pa",
+      "categories": [
+        "assainissement"
+      ]
     },
     {
       "asset": "ad842256252b",
       "caption": "Les travaux de terrassement et d’aménagement — panorama",
-      "alt": "Les travaux de terrassement et d’aménagement — panorama — réalisation Pro-Ter-Pa"
+      "alt": "Les travaux de terrassement et d’aménagement — panorama — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement",
+        "amenagements"
+      ]
     },
     {
       "asset": "400f22372691",
       "caption": "Les chantiers Pro-Ter-Pa — panorama",
-      "alt": "Les chantiers Pro-Ter-Pa — panorama — réalisation Pro-Ter-Pa"
+      "alt": "Les chantiers Pro-Ter-Pa — panorama — réalisation Pro-Ter-Pa",
+      "categories": [
+        "terrassement",
+        "amenagements"
+      ]
+    },
+    {
+      "asset": "google-fd6b347fc806",
+      "caption": "Préparation d’un terrain — vues du chantier",
+      "alt": "Préparation d’un terrain — vues du chantier — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "terrassement"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-035f40285a89",
+      "caption": "Aménagement paysager autour d’une piscine",
+      "alt": "Aménagement paysager autour d’une piscine — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-dbd7ef9ca4df",
+      "caption": "Terrassement au pied d’une habitation",
+      "alt": "Terrassement au pied d’une habitation — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "terrassement"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-3887e987e9a5",
+      "caption": "Pose d’une clôture et préparation du terrain",
+      "alt": "Pose d’une clôture et préparation du terrain — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-ca9fc416a127",
+      "caption": "Aménagement d’une cour et de ses bordures",
+      "alt": "Aménagement d’une cour et de ses bordures — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-6795152dd45c",
+      "caption": "Création d’une allée d’accès",
+      "alt": "Création d’une allée d’accès — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-e3ca96b46f1e",
+      "caption": "Allées et massifs d’un jardin réaménagé",
+      "alt": "Allées et massifs d’un jardin réaménagé — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-de9bed0b669c",
+      "caption": "Nivellement du terrain et aménagement de l’extérieur",
+      "alt": "Nivellement du terrain et aménagement de l’extérieur — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "terrassement",
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
+    },
+    {
+      "asset": "google-a662eac2ba00",
+      "caption": "Allée gravillonnée et muret paysager en pierre",
+      "alt": "Allée gravillonnée et muret paysager en pierre — photographie publiée par Pro-Ter-Pa sur Google",
+      "categories": [
+        "amenagements"
+      ],
+      "source_type": "google-owner",
+      "uncropped": true
     }
   ],
   "coverage": {
@@ -2077,18 +2570,29 @@
     "mentions-legales": {
       "source_blocks": []
     },
-    "media_count": 55,
+    "media_count": 65,
     "source_gallery_photos": 28,
-    "preserved_photographs_and_banners": 40,
+    "preserved_photographs_and_banners": 49,
     "original_form": {
       "url": "https://www.pro-ter-pa.fr/contact",
       "method": "POST",
       "captcha": true,
       "migration": "Direct email and phone; explicit link to original form. No submission endpoint copied or simulated."
-    }
+    },
+    "original_media_count": 55,
+    "additional_google_media_count": 10,
+    "original_project_images": 40
   },
   "logo": "be342e38f30c",
   "hero": "ce78c7e62396",
   "hero_alt": "Muret arrondi en pierre naturelle entourant un massif dans un jardin — réalisation Pro-Ter-Pa",
-  "maps": "https://www.google.com/maps/place/7+Rue+des+Bois,+27120+Boisset-les-Pr%C3%A9vanches,+France/data=!4m2!3m1!1s0x47e14b8f968db9b7:0x47bd14e2292bb642?sa=X&ved=2ahUKEwiUpP_f0dqCAxVlUqQEHcCzA94Q8gF6BAgMEAA"
+  "maps": "https://www.google.com/maps/place/7+Rue+des+Bois,+27120+Boisset-les-Pr%C3%A9vanches,+France/data=!4m2!3m1!1s0x47e14b8f968db9b7:0x47bd14e2292bb642?sa=X&ved=2ahUKEwiUpP_f0dqCAxVlUqQEHcCzA94Q8gF6BAgMEAA",
+  "current_maps": "https://www.google.com/maps/place/Pro-ter-pa+Perrier+Pascal/@48.9606852,1.336873,17z/data=!3m1!4b1!4m6!3m5!1s0x8869340ff8acce9f:0x84d9202bb15a14e1!8m2!3d48.9606852!4d1.336873!16s%2Fg%2F11krfhtlq0",
+  "google_photos": {
+    "profile_url": "https://www.google.com/maps/contrib/114227483729375855289/photos/",
+    "place_url": "https://www.google.com/maps/place/Pro-ter-pa+Perrier+Pascal/@48.9606852,1.336873,17z/data=!3m1!4b1!4m6!3m5!1s0x8869340ff8acce9f:0x84d9202bb15a14e1!8m2!3d48.9606852!4d1.336873!16s%2Fg%2F11krfhtlq0",
+    "selection_note": "The public profile displayed these ten owner uploads. Nine show project work; one is a logo variant and belongs in the visual archive, not the project-photo grid.",
+    "captured_count": 10,
+    "project_images_added": 9
+  }
 }

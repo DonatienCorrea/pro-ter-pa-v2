@@ -185,7 +185,7 @@
       "refersTo": "button-primary",
       "description": "Filled woodland-green contact or service action.",
       "html": "<a class=\"ds-button-primary\" href=\"/pro-ter-pa-v2/contact/\">Parlons de votre projet <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-button-primary { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 50px; padding: 13px 22px; background: #254c35; color: #fff; border: 1px solid #254c35; text-decoration: none; font-family: \"Trebuchet MS\", Arial, sans-serif; font-size: 15px; font-weight: 700; } .ds-button-primary:hover { background: #24392d; border-color: #24392d; } .ds-button-primary:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
+      "css": ".ds-button-primary { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 50px; padding: 13px 22px; background: #254c35; color: #fff; border: 1px solid #254c35; text-decoration: none; font-family: Barlow, \"Trebuchet MS\", Arial, sans-serif; font-size: 15px; font-weight: 700; } .ds-button-primary:hover { background: #24392d; border-color: #24392d; } .ds-button-primary:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
     },
     {
       "name": "Secondary Action",
@@ -193,7 +193,7 @@
       "refersTo": "button-secondary",
       "description": "Outlined alternative action for the project gallery or email.",
       "html": "<a class=\"ds-button-secondary\" href=\"/pro-ter-pa-v2/galerie-photos/\">Voir les réalisations <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 50px; padding: 13px 22px; background: transparent; color: #24392d; border: 1px solid #cbd2c7; text-decoration: none; font-family: \"Trebuchet MS\", Arial, sans-serif; font-size: 15px; font-weight: 700; } .ds-button-secondary:hover { background: #d8e66b; border-color: #d8e66b; } .ds-button-secondary:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
+      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 50px; padding: 13px 22px; background: transparent; color: #24392d; border: 1px solid #cbd2c7; text-decoration: none; font-family: Barlow, \"Trebuchet MS\", Arial, sans-serif; font-size: 15px; font-weight: 700; } .ds-button-secondary:hover { background: #d8e66b; border-color: #d8e66b; } .ds-button-secondary:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
     },
     {
       "name": "Contact Navigation Link",
@@ -201,15 +201,15 @@
       "refersTo": "nav-contact",
       "description": "Filled contact destination within the primary navigation.",
       "html": "<a class=\"ds-nav-contact\" href=\"/pro-ter-pa-v2/contact/\">Parlons de votre projet</a>",
-      "css": ".ds-nav-contact { display: inline-block; padding: 12px 20px; background: #24392d; color: #fff; font: 700 14px/1.4 \"Trebuchet MS\", Arial, sans-serif; text-decoration: none; white-space: nowrap; } .ds-nav-contact:hover { background: #254c35; } .ds-nav-contact:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
+      "css": ".ds-nav-contact { display: inline-block; padding: 12px 20px; background: #24392d; color: #fff; font: 700 14px/1.4 Barlow, \"Trebuchet MS\", Arial, sans-serif; text-decoration: none; white-space: nowrap; } .ds-nav-contact:hover { background: #254c35; } .ds-nav-contact:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
     },
     {
       "name": "Service Row",
       "kind": "custom",
       "refersTo": "service-row",
-      "description": "Open, ruled link to one of the three service pages.",
-      "html": "<a class=\"ds-service-row\" href=\"/pro-ter-pa-v2/chantier-de-terrassement/\"><span class=\"ds-service-title\">Chantier de terrassement</span><span class=\"ds-service-description\">Préparation de terrain et travaux de terrassement.</span><span class=\"ds-service-arrow\" aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-service-row { display: grid; grid-template-columns: 1fr 1.1fr 40px; align-items: center; gap: 40px; padding: 34px 0; border-top: 1px solid #cbd2c7; color: #24392d; text-decoration: none; } .ds-service-title { font: 700 clamp(27px, 2.7vw, 39px)/1.04 \"Arial Narrow\", \"Trebuchet MS\", Arial, sans-serif; letter-spacing: -.045em; } .ds-service-description { color: #586557; font: 400 16px/1.65 \"Trebuchet MS\", Arial, sans-serif; } .ds-service-arrow { font: 31px/1 \"Trebuchet MS\", Arial, sans-serif; transition: transform .2s ease-out; } .ds-service-row:hover .ds-service-title { text-decoration: underline; text-underline-offset: 8px; text-decoration-thickness: 1px; } .ds-service-row:hover .ds-service-arrow { transform: translate(5px, -5px); } .ds-service-row:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; } @media (max-width: 520px) { .ds-service-row { grid-template-columns: 1fr 30px; gap: 16px; padding: 29px 0; } .ds-service-description { grid-column: 1; grid-row: 2; } .ds-service-arrow { grid-column: 2; grid-row: 1; } }"
+      "description": "Open, ruled photographic path to a service page, retaining the original full description.",
+      "html": "<div class=\"ds-service-row\"><img src=\"/pro-ter-pa-v2/assets/originals/8346b8ab71db-Chantier-de-dessoxxuchage-pres-de-Vernon-thumb.webp\" width=\"800\" height=\"600\" alt=\"Préparation d’un bassin de piscine\"><a class=\"ds-service-title\" href=\"/pro-ter-pa-v2/chantier-de-terrassement/\">Chantier de terrassement</a><p class=\"ds-service-description\">Préparation de terrain et travaux de terrassement.</p><span aria-hidden=\"true\">↗</span></div>",
+      "css": ".ds-service-row { display: grid; grid-template-columns: .75fr .8fr 1.1fr 32px; align-items: center; gap: 32px; padding: 36px 0; border-top: 1px solid #cbd2c7; color: #24392d; } .ds-service-row img { width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; } .ds-service-title { font: 700 clamp(27px, 2.7vw, 39px)/1.06 \"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif; letter-spacing: -.025em; } .ds-service-description { color: #586557; font: 400 16px/1.65 Barlow, Arial, sans-serif; } .ds-service-title:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; } @media(max-width:520px) { .ds-service-row { grid-template-columns: 1fr 32px; gap:22px 16px; padding:29px 0; } .ds-service-row img,.ds-service-description { grid-column:1/-1; } .ds-service-row img { aspect-ratio:16/9; } }"
     },
     {
       "name": "Photograph Caption",
@@ -217,14 +217,14 @@
       "refersTo": "hero-photo-caption",
       "description": "Chartreuse location and project caption over the real hero photograph.",
       "html": "<div class=\"ds-photo-caption\"><span>Les chantiers de Pro-Ter-Pa</span><span>Boisset-les-Prévanches · Eure</span></div>",
-      "css": ".ds-photo-caption { display: flex; justify-content: space-between; gap: 20px; padding: 18px 26px; background: #d8e66b; color: #24392d; font-family: \"Trebuchet MS\", Arial, sans-serif; font-size: 13px; font-weight: 700; } @media (max-width: 520px) { .ds-photo-caption { padding: 16px 22px; font-size: 11px; } }"
+      "css": ".ds-photo-caption { display: flex; justify-content: space-between; gap: 20px; padding: 18px 26px; background: #d8e66b; color: #24392d; font-family: Barlow, \"Trebuchet MS\", Arial, sans-serif; font-size: 13px; font-weight: 700; } @media (max-width: 520px) { .ds-photo-caption { padding: 16px 22px; font-size: 11px; } }"
     }
   ],
   "narrative": {
     "northStar": "The Landscape-Maker's Photographic Monograph",
-    "overview": "Pro-Ter-Pa presents outdoor work with the confidence of a working landscape journal: real project photography leads, practical words explain the craft, and the interface stays open enough for the work to breathe. The visual direction is grounded in the shipped candidate 3, seed `3cd0af47`: a photographic, facing-page composition rather than a generic contractor template.\n\nWoodland green, chalky paper and fresh chartreuse carry the identity. Bold, locally available sans-serif typography and unboxed rows make the site direct and useful; actual project photographs provide evidence rather than decoration. The home-page opening pairs its promise on the left with a real chantier photograph on the right, with a lime caption; service paths and direct contact follow. Preserve the existing photo archive, footer, and distinct contact and legal contexts.",
+    "overview": "Pro-Ter-Pa presents outdoor work as a photographic landscape journal, preserving its original facing-page composition, woodland green, chalk paper and chartreuse. Self-hosted Barlow typography and real photographs make the open service rows scannable without replacing their full descriptions.\n\nCategory filters, stable photo links and truthful sharing feedback help visitors explore the work. On mobile, a reserved-space contact bar provides direct actions without competing with navigation or the native-dialog viewer. Preserve the complete photo archive, business information and distinct original-site/V2 legal contexts.",
     "keyCharacteristics": [
-      "Practical, bold local sans-serif typography.",
+      "Self-hosted Barlow and Barlow Semi Condensed typography.",
       "Real landscape and chantier photography as the primary visual proof.",
       "Open rows, calm paper surfaces, and restrained green/chartreuse accents.",
       "Clear service routes and direct telephone and email contact."
