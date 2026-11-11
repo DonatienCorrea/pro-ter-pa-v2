@@ -1,0 +1,725 @@
+{
+  "origin": "https://www.pro-ter-pa.fr",
+  "pages": [
+    {
+      "route": "/",
+      "url": "https://www.pro-ter-pa.fr/",
+      "file": "pages/index.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Chantier-de%20%20terrassement-pr%C3%A8s-de-Vernon.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Chantier-de-dessoxxuchage-pr%C3%A8s-de-Vernon.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainisssement-%C3%A0proximit%C3%A9d%E2%80%99%C3%89vreux.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Assainissement.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Frame.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Frame2.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Galerie-photos.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Interlocuteur-unique.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Nos-am%C3%A9nagements.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Qualit%C3%A9.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/R%C3%A9activit%C3%A9.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Terrassement.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/map.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/680871.css?1790150025",
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150025",
+        "https://www.pro-ter-pa.fr/js/680871.js?1790150025"
+      ]
+    },
+    {
+      "route": "/chantier-de-terrassement",
+      "url": "https://www.pro-ter-pa.fr/chantier-de-terrassement",
+      "file": "pages/chantier-de-terrassement.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20u%20de-fosses-septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-nde-fosses%20%20septiques%20pr%C3%A8sde-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/680881.css?1790150030",
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150030",
+        "https://www.pro-ter-pa.fr/js/680881.js?1790150030"
+      ]
+    },
+    {
+      "route": "/nos-amenagements",
+      "url": "https://www.pro-ter-pa.fr/nos-amenagements",
+      "file": "pages/nos-amenagements.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Am%C3%A9nagement-paysager-%C3%A0-proximit%C3%A9-d%E2%80%99%C3%89vreux.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Cr%C3%A9ation%20%20%20%20de%20%20%20%20murets-proche-de-Saint-Andr%C3%A9-de-l%27Eure.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Dessouchage-de-terrains-pr%C3%A8s-de-Bueil.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/680901.css?1790150033",
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150033",
+        "https://www.pro-ter-pa.fr/js/680901.js?1790150033"
+      ]
+    },
+    {
+      "route": "/assainissement",
+      "url": "https://www.pro-ter-pa.fr/assainissement",
+      "file": "pages/assainissement.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de-fosses-septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-%C3%A0%20%20%20%20%20%20%20%20%20%20Boisset-les-Pr%C3%A9vanches.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/680911.css?1790150036",
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150036",
+        "https://www.pro-ter-pa.fr/js/680911.js?1790150036"
+      ]
+    },
+    {
+      "route": "/galerie-photos",
+      "url": "https://www.pro-ter-pa.fr/galerie-photos",
+      "file": "pages/galerie-photos.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Am%C3%A9nagement-paysager-%C3%A0-proximit%C3%A9-d%E2%80%99%C3%89vreux.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-%20%20%20%20%20%20%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20%20%20%20%20%20%20%20%20%20%20%20%20septiques-pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques%20%20%20%20%20pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-%20%20%20pr%C3%A8s-de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s%20%20%20de-Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de%20%20%20%20%20%20%20Serez.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de-Serez-1.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Tdravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux%20%20%20%20d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-assainissement-dans-l%E2%80%99Eure.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-%20%20%20dans-l%E2%80%99Eure.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-%20%20%20%20%20%20%20%20%20%20%20%20%20%20l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-%20%20%20%20%20%20%20%20%20%20%20%20%20l%E2%80%99Eure.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eur.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20%20%20%20%20%20%20%20%20%20%20%20%20%20h.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20cccc.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copief.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure-1.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissementf-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Trravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Tttravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/680861.css?1790150053",
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150053",
+        "https://www.pro-ter-pa.fr/js/680861.js?1790150053"
+      ]
+    },
+    {
+      "route": "/contact",
+      "url": "https://www.pro-ter-pa.fr/contact",
+      "file": "pages/contact.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/680891.css?1790150055",
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150055",
+        "https://www.pro-ter-pa.fr/js/680891.js?1790150055"
+      ]
+    },
+    {
+      "route": "/mentions-legales",
+      "url": "https://www.pro-ter-pa.fr/mentions-legales",
+      "file": "pages/mentions-legales.html",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp"
+      ],
+      "code": [
+        "https://www.pro-ter-pa.fr/css/animations.css?1790150058",
+        "https://www.pro-ter-pa.fr/css/template.css?1790150058",
+        "https://www.pro-ter-pa.fr/js/template.js?1790150058"
+      ]
+    }
+  ],
+  "reference_code": [
+    {
+      "url": "https://www.pro-ter-pa.fr/css/680861.css?1790150053",
+      "file": "reference-code/css-680861.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/680871.css?1790150025",
+      "file": "reference-code/css-680871.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/680881.css?1790150030",
+      "file": "reference-code/css-680881.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/680891.css?1790150055",
+      "file": "reference-code/css-680891.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/680901.css?1790150033",
+      "file": "reference-code/css-680901.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/680911.css?1790150036",
+      "file": "reference-code/css-680911.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150025",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150030",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150033",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150036",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150053",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150055",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/animations.css?1790150058",
+      "file": "reference-code/css-animations.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/css/template.css?1790150058",
+      "file": "reference-code/css-template.css",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/680861.js?1790150053",
+      "file": "reference-code/js-680861.js",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/680871.js?1790150025",
+      "file": "reference-code/js-680871.js",
+      "assets": [
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/bandeu%20de-Saint-Andr%C3%A9-de-l%27Eure.webp",
+        "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/bandeu.webp"
+      ]
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/680881.js?1790150030",
+      "file": "reference-code/js-680881.js",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/680891.js?1790150055",
+      "file": "reference-code/js-680891.js",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/680901.js?1790150033",
+      "file": "reference-code/js-680901.js",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/680911.js?1790150036",
+      "file": "reference-code/js-680911.js",
+      "assets": []
+    },
+    {
+      "url": "https://www.pro-ter-pa.fr/js/template.js?1790150058",
+      "file": "reference-code/js-template.js",
+      "assets": []
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Am%C3%A9nagement-paysager-%C3%A0-proximit%C3%A9-d%E2%80%99%C3%89vreux.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Am%C3%A9nagement-paysager-%C3%A0-proximit%C3%A9-d%E2%80%99%C3%89vreux.webp",
+      "original_name": "Aménagement-paysager-à-proximité-d’Évreux.webp",
+      "file": "assets/f4280ac974c6-Amenagement-paysager-a-proximite-dEvreux.webp",
+      "bytes": 521342,
+      "sha256": "2fe04a5a7f617abca65f9b212888771937c307297cb9404949ea3e4f64566f89"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Chantier-de%20%20terrassement-pr%C3%A8s-de-Vernon.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Chantier-de%20%20terrassement-pr%C3%A8s-de-Vernon.webp",
+      "original_name": "Chantier-de  terrassement-près-de-Vernon.webp",
+      "file": "assets/813e235f5002-Chantier-de-terrassement-pres-de-Vernon.webp",
+      "bytes": 298742,
+      "sha256": "4da51b573dd29c6a7fe7b1bffc292d6c042b5a40bb725b1d72dad115deb7dc1d"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Chantier-de-dessoxxuchage-pr%C3%A8s-de-Vernon.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Chantier-de-dessoxxuchage-pr%C3%A8s-de-Vernon.webp",
+      "original_name": "Chantier-de-dessoxxuchage-près-de-Vernon.webp",
+      "file": "assets/8346b8ab71db-Chantier-de-dessoxxuchage-pres-de-Vernon.webp",
+      "bytes": 255242,
+      "sha256": "b65153a4b98444010be7dc21f0832213690d44ec748634fa77e24133709f208b"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Cr%C3%A9ation%20%20%20%20de%20%20%20%20murets-proche-de-Saint-Andr%C3%A9-de-l%27Eure.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Cr%C3%A9ation%20%20%20%20de%20%20%20%20murets-proche-de-Saint-Andr%C3%A9-de-l%27Eure.webp",
+      "original_name": "Création    de    murets-proche-de-Saint-André-de-l'Eure.webp",
+      "file": "assets/ce78c7e62396-Creation-de-murets-proche-de-Saint-Andre-de-l-Eure.webp",
+      "bytes": 632772,
+      "sha256": "9453c62145c5dba8fd159ea72542556b52d1cbae69517d806329549263fd03f1"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Dessouchage-de-terrains-pr%C3%A8s-de-Bueil.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Dessouchage-de-terrains-pr%C3%A8s-de-Bueil.webp",
+      "original_name": "Dessouchage-de-terrains-près-de-Bueil.webp",
+      "file": "assets/85cf15b6aad8-Dessouchage-de-terrains-pres-de-Bueil.webp",
+      "bytes": 567330,
+      "sha256": "1f2acfb2c3c351567dc166b6421cc4eceee888d371926ce3b33f532f5015eef2"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose    de fosses septiques-près-de-Serez.webp",
+      "file": "assets/917a7561a8d5-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 484184,
+      "sha256": "a34a57b05f34e5fa25357577d80b8bd2fc8a8b0de01a75f78b4822f216d33f0f"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose   de fosses septiques-près-de-Serez.webp",
+      "file": "assets/268fd61d4101-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 494252,
+      "sha256": "da8725f112067662865b1987b76f7842dc92a9ca22e4e64627d3516962b95c7d"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose de fosses septiques-près-de-Serez.webp",
+      "file": "assets/116cf26dc2d5-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 537160,
+      "sha256": "2f372047dd59680c3964e4891ec93bba15c5155f41a37a6a92abee6fd944f441"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20u%20de-fosses-septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose%20u%20de-fosses-septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose u de-fosses-septiques-près-de-Serez.webp",
+      "file": "assets/1def9dc92dbf-Pose-u-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 495860,
+      "sha256": "e61d28daa9a1c220757d04b98c2b9c064cf7c8a7db78401add485d8711ba9d5d"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-%20%20%20%20%20%20%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-%20%20%20%20%20%20%20%20%20de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose-         de fosses septiques-près-de-Serez.webp",
+      "file": "assets/abe554ca9884-Pose--de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 465072,
+      "sha256": "d6bb49df867f67294d09095811bbb404e101e6e89b472a70e84d70b7599eb8f2"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20%20%20%20%20%20%20%20%20%20%20%20%20septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20%20%20%20%20%20%20%20%20%20%20%20%20septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose-de fosses             septiques-près-de-Serez.webp",
+      "file": "assets/91b03c0b09b6-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 404846,
+      "sha256": "9a1a1c6059b63ae004b86f308310a779c83605edd75879bc85efcc3bb4b90eb6"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques%20%20%20%20%20pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques%20%20%20%20%20pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose-de fosses septiques     près-de-Serez.webp",
+      "file": "assets/baf0c61abb30-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 474352,
+      "sha256": "48c901d80bac4aa19eef628c1d3245200b6621c142ec7da6c57fa303cad778cd"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-%20%20%20pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-%20%20%20pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose-de fosses septiques-   près-de-Serez.webp",
+      "file": "assets/a6c3ccdebcb7-Pose-de-fosses-septiques--pres-de-Serez.webp",
+      "bytes": 504946,
+      "sha256": "6be78ad6adb469a670fd9a6157f157efbac580e3bddfd07fdc8bf6130769e2d0"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s%20%20%20de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s%20%20%20de-Serez.webp",
+      "original_name": "Pose-de fosses septiques-près   de-Serez.webp",
+      "file": "assets/8fc3c507692f-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 524652,
+      "sha256": "887ea4eb76268463441389f73fc20a1961356c81e1e0c134ab30908d7c31f950"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de%20%20%20%20%20%20%20Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de%20%20%20%20%20%20%20Serez.webp",
+      "original_name": "Pose-de fosses septiques-près-de       Serez.webp",
+      "file": "assets/135bac08718e-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 479750,
+      "sha256": "00bcdb6159c236ff13ca604f04f2b08d7d91e72d8e77fba04288fd7d3a059ae0"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de-Serez-1.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de-Serez-1.webp",
+      "original_name": "Pose-de fosses septiques-près-de-Serez-1.webp",
+      "file": "assets/5bf430076fc6-Pose-de-fosses-septiques-pres-de-Serez-1.webp",
+      "bytes": 456930,
+      "sha256": "c957ecb07eb878d673c157dea2f9755798bbc2ab4d8e09de0168bbfaa490c44f"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de%20fosses%20septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose-de fosses septiques-près-de-Serez.webp",
+      "file": "assets/ca4036ba28cf-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 510752,
+      "sha256": "1766839b45d716e0ed259df90ccc35ef5c7f15a8704163c2f3fdeacd9a436f5f"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de-fosses-septiques-pr%C3%A8s-de-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-de-fosses-septiques-pr%C3%A8s-de-Serez.webp",
+      "original_name": "Pose-de-fosses-septiques-près-de-Serez.webp",
+      "file": "assets/2d2c213fea26-Pose-de-fosses-septiques-pres-de-Serez.webp",
+      "bytes": 552172,
+      "sha256": "486a45b30679fa4b8b4648de90c15ed6e1ebd4183e4d71bfd9869a221776b977"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-nde-fosses%20%20septiques%20pr%C3%A8sde-Serez.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Pose-nde-fosses%20%20septiques%20pr%C3%A8sde-Serez.webp",
+      "original_name": "Pose-nde-fosses  septiques prèsde-Serez.webp",
+      "file": "assets/b66347644378-Pose-nde-fosses-septiques-presde-Serez.webp",
+      "bytes": 545880,
+      "sha256": "0638cbc2d98dbb645021f10206322a6dbb522fd3ab42474b69122326a24ddbda"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Tdravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Tdravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Tdravaux-d’assainissement-dans-l’Eure copie.webp",
+      "file": "assets/8f9e80b6e6af-Tdravaux-dassainissement-dans-lEure-copie.webp",
+      "bytes": 316776,
+      "sha256": "8fd0415a128510af71e4ce39d238e7cd97d9ac8d521598bcfa931fa4dbdd979c"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Travaux                   d’assainissement-dans-l’Eure copie.webp",
+      "file": "assets/11aca73c8701-Travaux-dassainissement-dans-lEure-copie.webp",
+      "bytes": 419278,
+      "sha256": "6c5a6e3047492bfa5d62f8f04711c255f80c3e66a567bad8d0b61ef52713571e"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux%20%20%20%20d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux%20%20%20%20d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Travaux    d’assainissement-dans-l’Eure copie.webp",
+      "file": "assets/780c2a16ee84-Travaux-dassainissement-dans-lEure-copie.webp",
+      "bytes": 454864,
+      "sha256": "e6a787cefe62c2a713dbf4233671b17d315cdd630bdef8c7f67affa2d8a54037"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-assainissement-dans-l%E2%80%99Eure.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-assainissement-dans-l%E2%80%99Eure.webp",
+      "original_name": "Travaux-assainissement-dans-l’Eure.webp",
+      "file": "assets/0c38cce57b48-Travaux-assainissement-dans-lEure.webp",
+      "bytes": 445256,
+      "sha256": "14c9c35407e9420096f8d4a0ab6d94613eb3484591a98edb401628e3aa04b361"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-%20%20%20dans-l%E2%80%99Eure.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-%20%20%20dans-l%E2%80%99Eure.webp",
+      "original_name": "Travaux-d’assainissement-   dans-l’Eure.webp",
+      "file": "assets/3213abdb96de-Travaux-dassainissement--dans-lEure.webp",
+      "bytes": 535800,
+      "sha256": "030df1983f5c39d50c4b5c687e4c7fd6f38619ed92618b2a422d8c824bb71cda"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-%C3%A0%20%20%20%20%20%20%20%20%20%20Boisset-les-Pr%C3%A9vanches.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-%C3%A0%20%20%20%20%20%20%20%20%20%20Boisset-les-Pr%C3%A9vanches.webp",
+      "original_name": "Travaux-d’assainissement-à          Boisset-les-Prévanches.webp",
+      "file": "assets/5cbe0bd40a74-Travaux-dassainissement-a-Boisset-les-Prevanches.webp",
+      "bytes": 609120,
+      "sha256": "630afe7f27c97c235b08bdea6e8c9b33eddc1a32881b79af8a877fa60b2bc9fd"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-%20%20%20%20%20%20%20%20%20%20%20%20%20%20l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-%20%20%20%20%20%20%20%20%20%20%20%20%20%20l%E2%80%99Eure%20copie.webp",
+      "original_name": "Travaux-d’assainissement-dans-              l’Eure copie.webp",
+      "file": "assets/db747489610d-Travaux-dassainissement-dans--lEure-copie.webp",
+      "bytes": 393804,
+      "sha256": "e487a166e89f317224382f63e52ecbe97e2fc27716051eb9c69f02f97eff5c50"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-%20%20%20%20%20%20%20%20%20%20%20%20%20l%E2%80%99Eure.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-%20%20%20%20%20%20%20%20%20%20%20%20%20l%E2%80%99Eure.webp",
+      "original_name": "Travaux-d’assainissement-dans-             l’Eure.webp",
+      "file": "assets/9d22eaaf4311-Travaux-dassainissement-dans--lEure.webp",
+      "bytes": 499568,
+      "sha256": "1337c602f3d42f05d93cd236e36a2b200baf186640b5b7cef666523234f54bc4"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eur.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eur.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eur.webp",
+      "file": "assets/fcce9754a4e7-Travaux-dassainissement-dans-lEur.webp",
+      "bytes": 439450,
+      "sha256": "8dadbf5cf6ddbbadc6ca8fcc893d454a783d9af40bd151362da4ed7b1b8c88bb"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20%20%20%20%20%20%20%20%20%20%20%20%20%20h.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20%20%20%20%20%20%20%20%20%20%20%20%20%20h.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eure              h.webp",
+      "file": "assets/ca7cabe4d4b8-Travaux-dassainissement-dans-lEure-h.webp",
+      "bytes": 473916,
+      "sha256": "27e3105f7dd5a5bbb31654763a1a6d4bd6d5b62810a92e0ce8905ae44751857a"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20cccc.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20cccc.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eure cccc.webp",
+      "file": "assets/df8af4ffe4ba-Travaux-dassainissement-dans-lEure-cccc.webp",
+      "bytes": 416164,
+      "sha256": "64e099915e4ad3d7cbd4201895ab849176a555ebdf526e78ff5e00a5d11240e8"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eure copie.webp",
+      "file": "assets/e4667abca201-Travaux-dassainissement-dans-lEure-copie.webp",
+      "bytes": 446560,
+      "sha256": "51ce1869ee6f57d3de8937aebb18f269e094e947dc688656829eb38ceae9ccee"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copief.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copief.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eure copief.webp",
+      "file": "assets/6b63a54a0406-Travaux-dassainissement-dans-lEure-copief.webp",
+      "bytes": 448816,
+      "sha256": "7c7248def46ff665c3415a55c4ef56cefb1006a23c7cd205a42f7c1ac788327e"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure-1.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure-1.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eure-1.webp",
+      "file": "assets/4c9930521fb9-Travaux-dassainissement-dans-lEure-1.webp",
+      "bytes": 430814,
+      "sha256": "822d18c0db73534f16cdcde678f6fa0df15b61d0e592355e568aa17fcd3b469d"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure.webp",
+      "original_name": "Travaux-d’assainissement-dans-l’Eure.webp",
+      "file": "assets/db10957ac7cd-Travaux-dassainissement-dans-lEure.webp",
+      "bytes": 586012,
+      "sha256": "387283cdd9e5be5f70e0e2040776b7cc31d21dcdb9423c2067d31c43cafaceb3"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissementf-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainissementf-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Travaux-d’assainissementf-dans-l’Eure copie.webp",
+      "file": "assets/aa158c961f6f-Travaux-dassainissementf-dans-lEure-copie.webp",
+      "bytes": 486144,
+      "sha256": "65153434f528e9df7d89a7d6a6011df025b80f76a65dcfb947d0a33f4888b2f6"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainisssement-%C3%A0proximit%C3%A9d%E2%80%99%C3%89vreux.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Travaux-d%E2%80%99assainisssement-%C3%A0proximit%C3%A9d%E2%80%99%C3%89vreux.webp",
+      "original_name": "Travaux-d’assainisssement-àproximitéd’Évreux.webp",
+      "file": "assets/420102bd2c9c-Travaux-dassainisssement-aproximitedEvreux.webp",
+      "bytes": 304400,
+      "sha256": "5fd0f9e5ef2e25ca5689bc346f0278c5f61992732498e89009984f8e5daf4ca9"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Trravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Trravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Trravaux-d’assainissement-dans-l’Eure copie.webp",
+      "file": "assets/3e0dd9f3ec9c-Trravaux-dassainissement-dans-lEure-copie.webp",
+      "bytes": 438738,
+      "sha256": "18c92f2e3a3b272695d3192676118a1ff462c8e39c7d84d0dd5a54b34d2a8172"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Tttravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/Tttravaux-d%E2%80%99assainissement-dans-l%E2%80%99Eure%20copie.webp",
+      "original_name": "Tttravaux-d’assainissement-dans-l’Eure copie.webp",
+      "file": "assets/ebaea1cd9070-Tttravaux-dassainissement-dans-lEure-copie.webp",
+      "bytes": 482606,
+      "sha256": "b03cf7d6a83f8f185e5305f6c21fee35d4c6ed8cf285cdd988728e227e4fbc0e"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/bandeu%20de-Saint-Andr%C3%A9-de-l%27Eure.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/bandeu%20de-Saint-Andr%C3%A9-de-l%27Eure.webp",
+      "original_name": "bandeu de-Saint-André-de-l'Eure.webp",
+      "file": "assets/ad842256252b-bandeu-de-Saint-Andre-de-l-Eure.webp",
+      "bytes": 1357320,
+      "sha256": "1cf45acf468a07b60b2c3d629fc52546a79b8802923a3a5caf8ef49e94e7927a"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/bandeu.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/18-12-2023/bandeu.webp",
+      "original_name": "bandeu.webp",
+      "file": "assets/400f22372691-bandeu.webp",
+      "bytes": 1314974,
+      "sha256": "6834a8e6b046c271650d9419ea560c8ca5da5e90151dbe91422833ad7212201d"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Assainissement.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Assainissement.webp",
+      "original_name": "Assainissement.webp",
+      "file": "assets/efe06c3e5800-Assainissement.webp",
+      "bytes": 4136,
+      "sha256": "436a20ea699d2eaf9e50bb435f4adaf4f7614e643f0bf50ed48c98eee7c5e3d6"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Frame.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Frame.webp",
+      "original_name": "Frame.webp",
+      "file": "assets/9e8c55e71807-Frame.webp",
+      "bytes": 2324,
+      "sha256": "023a054a9277f970fdc9b0467e6f8a48550b6c1816cab4323950f727ce35f816"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Frame2.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Frame2.webp",
+      "original_name": "Frame2.webp",
+      "file": "assets/df985ee1c191-Frame2.webp",
+      "bytes": 2326,
+      "sha256": "3b532249980086c479aca4052ad846363a43951f8cdba000be0e6484073c5da8"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Galerie-photos.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Galerie-photos.webp",
+      "original_name": "Galerie-photos.webp",
+      "file": "assets/3f9bc1f88bf4-Galerie-photos.webp",
+      "bytes": 4034,
+      "sha256": "a7c448432d2281c865592357839c5042011f75f1385c532a761e423333005d13"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Interlocuteur-unique.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Interlocuteur-unique.webp",
+      "original_name": "Interlocuteur-unique.webp",
+      "file": "assets/7c5d4fc06d04-Interlocuteur-unique.webp",
+      "bytes": 1556,
+      "sha256": "4550715964a909a01bdee566583391d91f4e4f3e3217c2fc688813bd0c05ed22"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-Footer.webp",
+      "original_name": "Logo-Footer.webp",
+      "file": "assets/dbb44f132d7a-Logo-Footer.webp",
+      "bytes": 1862,
+      "sha256": "cbfad9004e5b02eb85b6417f868f4ad282b2f6df04bd264ba75b291f40f0c09c"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-maps.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo-maps.webp",
+      "original_name": "Logo-maps.webp",
+      "file": "assets/04c0ea4f6b39-Logo-maps.webp",
+      "bytes": 9260,
+      "sha256": "80202df937a3edafeff6d60945787352238dacc07910e185ed9d73e4407eba1e"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Logo.webp",
+      "original_name": "Logo.webp",
+      "file": "assets/be342e38f30c-Logo.webp",
+      "bytes": 1858,
+      "sha256": "b91aaa1d19096d4aa6f036e5ad5bb4a04d72011adbadd83e4c7d68e309a148a9"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Maps.webp",
+      "original_name": "Maps.webp",
+      "file": "assets/69d43476a5ac-Maps.webp",
+      "bytes": 826,
+      "sha256": "70e7a7040fed8c0cd866a816b442e86855f663b86fbf0bf81a9b508202dbf5d9"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Nos-am%C3%A9nagements.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Nos-am%C3%A9nagements.webp",
+      "original_name": "Nos-aménagements.webp",
+      "file": "assets/7b146c2bc13d-Nos-amenagements.webp",
+      "bytes": 4990,
+      "sha256": "a9d5295edb8ca892268d5a24603187037b9e62a0b653920a961aeece480dcd3f"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Qualit%C3%A9.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Qualit%C3%A9.webp",
+      "original_name": "Qualité.webp",
+      "file": "assets/dbcd69e3df06-Qualite.webp",
+      "bytes": 2338,
+      "sha256": "fdc119c479e0ddc73a3952b1f5a852b3b863f979c1b45dc87bccee86fa6d2108"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/R%C3%A9activit%C3%A9.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/R%C3%A9activit%C3%A9.webp",
+      "original_name": "Réactivité.webp",
+      "file": "assets/6b1eb94ae695-Reactivite.webp",
+      "bytes": 1698,
+      "sha256": "7c05615ea44a09667750cb73bfaa204c784a210e0873c95712d0e0750f0701d7"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Tel.webp",
+      "original_name": "Tel.webp",
+      "file": "assets/d3594b607db9-Tel.webp",
+      "bytes": 442,
+      "sha256": "fd045353a6ea8d6cd4d6b3987963244b9e4c7a84e4710c96d2fffef452f75978"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Terrassement.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/Terrassement.webp",
+      "original_name": "Terrassement.webp",
+      "file": "assets/d52e5efef1c4-Terrassement.webp",
+      "bytes": 4324,
+      "sha256": "eb589923c7fee91775bbfe5c00575a7e41cc302d56d4da0819d0602fce9a326d"
+    },
+    {
+      "url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/map.webp",
+      "downloaded_url": "https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/85891/map.webp",
+      "original_name": "map.webp",
+      "file": "assets/0b9c9c5675cd-map.webp",
+      "bytes": 44968,
+      "sha256": "42f6cca89f33d87879d261b3fd9e014750c1179ed71572152d14e33cac82c856"
+    }
+  ],
+  "notes": [
+    "Public source capture for authorized site migration, not a license grant.",
+    "Ephemeral form-token input values removed from captured HTML.",
+    "Original local.fr platform JavaScript/CSS are reference-only; rebuild UI independently.",
+    "Some old HTML paths use a malformed 18:12- 2023 folder; the rendered site uses 18-12-2023."
+  ]
+}

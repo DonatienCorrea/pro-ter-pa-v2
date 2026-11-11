@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://donatiencorrea.github.io/pro-ter-pa-v2/sitemap.xml

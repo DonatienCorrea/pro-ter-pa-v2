@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T11:29:58.056Z",
+  "title": "Design System: Pro-Ter-Pa",
+  "extensions": {
+    "colorMeta": {
+      "forest": {
+        "role": "primary",
+        "displayName": "Woodland Green",
+        "canonical": "#254c35",
+        "tonalRamp": [
+          "oklch(15% 0.07 151)",
+          "oklch(25% 0.07 151)",
+          "oklch(35% 0.07 151)",
+          "oklch(45% 0.07 151)",
+          "oklch(55% 0.07 151)",
+          "oklch(65% 0.07 151)",
+          "oklch(75% 0.07 151)",
+          "oklch(95% 0.07 151)"
+        ]
+      },
+      "lime": {
+        "role": "secondary",
+        "displayName": "Fresh Chartreuse",
+        "canonical": "#d8e66b",
+        "tonalRamp": [
+          "oklch(15% 0.15 102)",
+          "oklch(25% 0.15 102)",
+          "oklch(35% 0.15 102)",
+          "oklch(45% 0.15 102)",
+          "oklch(55% 0.15 102)",
+          "oklch(65% 0.15 102)",
+          "oklch(75% 0.15 102)",
+          "oklch(95% 0.15 102)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Green Ink",
+        "canonical": "#24392d",
+        "tonalRamp": [
+          "oklch(15% 0.03 155)",
+          "oklch(25% 0.03 155)",
+          "oklch(35% 0.03 155)",
+          "oklch(45% 0.03 155)",
+          "oklch(55% 0.03 155)",
+          "oklch(65% 0.03 155)",
+          "oklch(75% 0.03 155)",
+          "oklch(95% 0.03 155)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Chalk Paper",
+        "canonical": "#f8f9f4",
+        "tonalRamp": [
+          "oklch(15% 0.01 115)",
+          "oklch(25% 0.01 115)",
+          "oklch(35% 0.01 115)",
+          "oklch(45% 0.01 115)",
+          "oklch(55% 0.01 115)",
+          "oklch(65% 0.01 115)",
+          "oklch(75% 0.01 115)",
+          "oklch(95% 0.01 115)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Leaf",
+        "canonical": "#586557",
+        "tonalRamp": [
+          "oklch(15% 0.03 137)",
+          "oklch(25% 0.03 137)",
+          "oklch(35% 0.03 137)",
+          "oklch(45% 0.03 137)",
+          "oklch(55% 0.03 137)",
+          "oklch(65% 0.03 137)",
+          "oklch(75% 0.03 137)",
+          "oklch(95% 0.03 137)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Pale Divider",
+        "canonical": "#cbd2c7",
+        "tonalRamp": [
+          "oklch(15% 0.02 140)",
+          "oklch(25% 0.02 140)",
+          "oklch(35% 0.02 140)",
+          "oklch(45% 0.02 140)",
+          "oklch(55% 0.02 140)",
+          "oklch(65% 0.02 140)",
+          "oklch(75% 0.02 140)",
+          "oklch(95% 0.02 140)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(55% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(75% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "soft-sage": {
+        "role": "neutral",
+        "displayName": "Soft Sage",
+        "canonical": "#e8eddf",
+        "tonalRamp": [
+          "oklch(15% 0.03 130)",
+          "oklch(25% 0.03 130)",
+          "oklch(35% 0.03 130)",
+          "oklch(45% 0.03 130)",
+          "oklch(55% 0.03 130)",
+          "oklch(65% 0.03 130)",
+          "oklch(75% 0.03 130)",
+          "oklch(95% 0.03 130)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Oversized opening promise."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service and supporting headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Main explanatory copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation and compact metadata."
+      }
+    },
+    "motion": [
+      {
+        "name": "service-row-arrow",
+        "value": "transform 0.2s ease-out",
+        "purpose": "Small directional response on service-row hover."
+      },
+      {
+        "name": "gallery-image-zoom",
+        "value": "transform 0.35s ease-out",
+        "purpose": "Subtle enlargement of a gallery image on hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small",
+        "value": "520px"
+      },
+      {
+        "name": "navigation-and-tablet",
+        "value": "850px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1500px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled woodland-green contact or service action.",
+      "html": "<a class=\"ds-button-primary\" href=\"/pro-ter-pa-v2/contact/\">Parlons de votre projet <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button-primary { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 50px; padding: 13px 22px; background: #254c35; color: #fff; border: 1px solid #254c35; text-decoration: none; font-family: \"Trebuchet MS\", Arial, sans-serif; font-size: 15px; font-weight: 700; } .ds-button-primary:hover { background: #24392d; border-color: #24392d; } .ds-button-primary:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined alternative action for the project gallery or email.",
+      "html": "<a class=\"ds-button-secondary\" href=\"/pro-ter-pa-v2/galerie-photos/\">Voir les réalisations <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 50px; padding: 13px 22px; background: transparent; color: #24392d; border: 1px solid #cbd2c7; text-decoration: none; font-family: \"Trebuchet MS\", Arial, sans-serif; font-size: 15px; font-weight: 700; } .ds-button-secondary:hover { background: #d8e66b; border-color: #d8e66b; } .ds-button-secondary:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
+    },
+    {
+      "name": "Contact Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-contact",
+      "description": "Filled contact destination within the primary navigation.",
+      "html": "<a class=\"ds-nav-contact\" href=\"/pro-ter-pa-v2/contact/\">Parlons de votre projet</a>",
+      "css": ".ds-nav-contact { display: inline-block; padding: 12px 20px; background: #24392d; color: #fff; font: 700 14px/1.4 \"Trebuchet MS\", Arial, sans-serif; text-decoration: none; white-space: nowrap; } .ds-nav-contact:hover { background: #254c35; } .ds-nav-contact:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; }"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Open, ruled link to one of the three service pages.",
+      "html": "<a class=\"ds-service-row\" href=\"/pro-ter-pa-v2/chantier-de-terrassement/\"><span class=\"ds-service-title\">Chantier de terrassement</span><span class=\"ds-service-description\">Préparation de terrain et travaux de terrassement.</span><span class=\"ds-service-arrow\" aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-service-row { display: grid; grid-template-columns: 1fr 1.1fr 40px; align-items: center; gap: 40px; padding: 34px 0; border-top: 1px solid #cbd2c7; color: #24392d; text-decoration: none; } .ds-service-title { font: 700 clamp(27px, 2.7vw, 39px)/1.04 \"Arial Narrow\", \"Trebuchet MS\", Arial, sans-serif; letter-spacing: -.045em; } .ds-service-description { color: #586557; font: 400 16px/1.65 \"Trebuchet MS\", Arial, sans-serif; } .ds-service-arrow { font: 31px/1 \"Trebuchet MS\", Arial, sans-serif; transition: transform .2s ease-out; } .ds-service-row:hover .ds-service-title { text-decoration: underline; text-underline-offset: 8px; text-decoration-thickness: 1px; } .ds-service-row:hover .ds-service-arrow { transform: translate(5px, -5px); } .ds-service-row:focus-visible { outline: 3px solid #6b7600; outline-offset: 5px; } @media (max-width: 520px) { .ds-service-row { grid-template-columns: 1fr 30px; gap: 16px; padding: 29px 0; } .ds-service-description { grid-column: 1; grid-row: 2; } .ds-service-arrow { grid-column: 2; grid-row: 1; } }"
+    },
+    {
+      "name": "Photograph Caption",
+      "kind": "custom",
+      "refersTo": "hero-photo-caption",
+      "description": "Chartreuse location and project caption over the real hero photograph.",
+      "html": "<div class=\"ds-photo-caption\"><span>Les chantiers de Pro-Ter-Pa</span><span>Boisset-les-Prévanches · Eure</span></div>",
+      "css": ".ds-photo-caption { display: flex; justify-content: space-between; gap: 20px; padding: 18px 26px; background: #d8e66b; color: #24392d; font-family: \"Trebuchet MS\", Arial, sans-serif; font-size: 13px; font-weight: 700; } @media (max-width: 520px) { .ds-photo-caption { padding: 16px 22px; font-size: 11px; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Landscape-Maker's Photographic Monograph",
+    "overview": "Pro-Ter-Pa presents outdoor work with the confidence of a working landscape journal: real project photography leads, practical words explain the craft, and the interface stays open enough for the work to breathe. The visual direction is grounded in the shipped candidate 3, seed `3cd0af47`: a photographic, facing-page composition rather than a generic contractor template.\n\nWoodland green, chalky paper and fresh chartreuse carry the identity. Bold, locally available sans-serif typography and unboxed rows make the site direct and useful; actual project photographs provide evidence rather than decoration. The home-page opening pairs its promise on the left with a real chantier photograph on the right, with a lime caption; service paths and direct contact follow. Preserve the existing photo archive, footer, and distinct contact and legal contexts.",
+    "keyCharacteristics": [
+      "Practical, bold local sans-serif typography.",
+      "Real landscape and chantier photography as the primary visual proof.",
+      "Open rows, calm paper surfaces, and restrained green/chartreuse accents.",
+      "Clear service routes and direct telephone and email contact."
+    ],
+    "rules": [
+      {
+        "name": "The Real-Work Rule",
+        "body": "Let the photographs carry the variety of the landscape; keep the interface palette to the established greens, chalk, sage, and chartreuse.",
+        "section": "colors"
+      },
+      {
+        "name": "The Practical Contrast Rule",
+        "body": "Keep display hierarchy bold and compact; supporting prose remains relaxed and readable rather than adopting the heading face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Use tonal fields, borders, and photography—not decorative card shadows—to distinguish content.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use real Pro-Ter-Pa photographs as the leading visual evidence.",
+      "Do maintain the chalk-paper, woodland-green, soft-sage, and chartreuse palette.",
+      "Do leave service paths open and scannable, with thin rules rather than cards.",
+      "Do keep telephone and email links pointed to the shipped direct-contact destinations.",
+      "Do preserve the existing footer, photo archive, and contact/legal distinctions."
+    ],
+    "donts": [
+      "Don't replace the monograph direction with a generic contractor template or decorative stock imagery.",
+      "Don't invent pricing, testimonials, services, or claims.",
+      "Don't add rounded cards, decorative shadows, or a fake contact form.",
+      "Don't remove the original photo archive or collapse the distinct contact and legal contexts."
+    ]
+  }
+}

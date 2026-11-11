@@ -1,0 +1,13 @@
+{
+  "name": "pro-ter-pa-v2",
+  "private": true,
+  "scripts": {
+    "build": "python scripts/build.py",
+    "verify": "python scripts/verify.py",
+    "test": "node scripts/test.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "playwright": "^1.56.1"
+  }
+}
