@@ -7,6 +7,9 @@ import assert from 'node:assert/strict';
 
 const root = resolve('docs');
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.json': 'application/json' };
+const chromePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH || (process.platform === 'darwin'
+  ? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+  : '/usr/bin/google-chrome');
 const server = createServer(async (request, response) => {
   const url = new URL(request.url, 'http://localhost');
   if (!url.pathname.startsWith('/pro-ter-pa-v2/')) {
@@ -29,7 +32,7 @@ const server = createServer(async (request, response) => {
 });
 await new Promise(ready => server.listen(0, '127.0.0.1', ready));
 const base = `http://127.0.0.1:${server.address().port}/pro-ter-pa-v2/`;
-const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome', args: ['--no-sandbox'] });
+const browser = await chromium.launch({ executablePath: chromePath, args: ['--no-sandbox'] });
 const evidence = { pages: [], errors: [], screenshots: [] };
 await mkdir('test-results', { recursive: true });
 try {

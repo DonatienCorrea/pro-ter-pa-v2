@@ -27,9 +27,9 @@ Les anciens CSS et JavaScript ont servi de référence de capture uniquement. Il
 Python 3 et Node.js sont nécessaires uniquement pour reconstruire et vérifier le site :
 
 ```sh
-python -m venv .venv
+python3 -m venv .venv
 . .venv/bin/activate
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 npm ci
 npm run build
 npm run verify
